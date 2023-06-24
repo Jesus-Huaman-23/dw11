@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.page{
+    border: 3px solid green;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.boton{
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    text-decoration: none;/* quitar la linea del suscribirte*/
+    text-transform: uppercase;/*cambia el texto a mayuscula*/
+    color: white;
+    transition-duration: 50ms;
+}
+.boton:hover{
+    opacity: 0.8;
+    color: black;
+    background-color: orange;
+}
+.boton:active{
+    transform: scale(0.90);
+}
